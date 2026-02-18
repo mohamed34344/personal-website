@@ -1,0 +1,66 @@
+.contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  -moz-column-gap: 20rem;
+       column-gap: 20rem;
+  margin-top: 5rem;
+  align-items: center;
+}
+
+.contact-text {
+  font-size: 21px;
+  line-height: 2.5rem;
+  padding-bottom: 1.8rem;
+  padding-left: 1rem;
+}
+
+.contact__emial {
+  font-weight: var(--font-weight-bold);
+  display: block;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+}
+
+.contact__social:hover {
+  transform: scale(1.2);
+}
+
+.contact__social {
+  margin: 0 0.5rem;
+  transition: var(--transition-timing);
+  padding-left: 1rem;
+}
+
+.contact__inputs {
+  display: flex;
+  gap: 3rem;
+  color: white;
+  mix-blend-mode: difference;
+}
+
+.contact__input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  flex: 1;
+  color: white;
+  mix-blend-mode: difference;
+  border-bottom: 0.2rem solid;
+}
+
+.contact__textarea {
+  width: 100%;
+  margin-top: 4rem;
+  color: rgb(255, 255, 255);
+  mix-blend-mode: difference;
+}
+
+.contact__button {
+  border: 0;
+  background-color: var(--color-link-bg);
+  color: var(--color-white);
+  padding: 1rem 1.8rem;
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-15);
+  margin-top: 2rem;
+}/*# sourceMappingURL=-contact.css.map */
