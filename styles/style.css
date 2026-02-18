@@ -374,15 +374,18 @@ box-shadow: 0 2px 6px rgba(0, 0, 0, 25);
   text-shadow: 0 0 2px var(--color-green);
 }
 /* end skills */
-/* Animation */
-.box {
-  display: flex;
+
+/* media */
+.media{
   align-items: center;
   justify-content: center;
-  margin-bottom: 80px;
 }
 
+.image{
+  max-width: 100%;
+}
 
+/* end media */
 /* projects */
 .projects__main {
   -moz-column-gap: 7.4rem;
