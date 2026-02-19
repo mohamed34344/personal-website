@@ -1,3 +1,4 @@
+/* reset */
 * {
   margin: 0;
   padding: 0;
@@ -40,13 +41,14 @@ body,
   background-color: var(--color-background);
   color: var(--color-text);
   border: 0;
+  overflow-x: hidden;
 }
 
 .container {
   display: grid;
   row-gap: 11rem;
   margin: 0 auto;
-  max-width: calc(var(--container-width) + cal(var(--gutter) * 2));
+  /* max-width: calc(var(--container-width) + cal( var(--gutter) * 2)); */
   padding-inline: var(--gutter);
-  margin-left: 4rem;
+  /* margin-left: 4rem; */
 }
